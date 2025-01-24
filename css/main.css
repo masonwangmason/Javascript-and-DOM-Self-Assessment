@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 1em 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 1em 0;
+  }
+  
+  .listing-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Thumbnail Images for Listings */
+  .thumbnail {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 1em;
+  }
+  
+  /* Host Images */
+  .host-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Host Info Container */
+  .host-info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .favorite-btn {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .favorite-btn:disabled {
+    background-color: gray;
+  }
+  
